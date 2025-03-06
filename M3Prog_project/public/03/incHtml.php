@@ -1,5 +1,5 @@
 <?php
-$loggedIn = true;
+$loggedIn = false;
 if(isSet($_Get['loggedIn']))
 {
     $loggedIn = true;
@@ -14,8 +14,11 @@ if(isSet($_Get['loggedIn']))
     <title>Document</title>
 </head>
 <body>
+
+    <button>Log in</button>
     <?php
-    if()
+
+    if($loggedIn = true)
     {
         include "views/myDashboard.html";
     }
