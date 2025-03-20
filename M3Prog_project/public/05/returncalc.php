@@ -8,14 +8,18 @@ function add($getal1, $getal2)
     return $som; 
 }
 
-echo add(100, 100) . "<br>";
-echo add(4, 9) . "<br>";
-echo add(33, 33);
 
-function subtract($getal1, $getal2)
+//echo add(100, 100) . "<br>";
+//echo add(4, 9) . "<br>";
+//echo add(33, 33);
+
+function substract($getal1, $getal2)
 {
     return $getal1 - $getal2;
 }
+
+
+//echo "<br>";
 
 function divide($getal1, $getal2)
 {
@@ -31,8 +35,5 @@ function multiply($getal1, $getal2)
 }
 
 
-echo "Aftrekken: " . subtract(10, 5) . "<br>";
-echo "Delen: " . divide(10, 2) . "<br>";
-echo "Vermenigvuldigen: " . multiply(10, 5) . "<br>";
 
 
